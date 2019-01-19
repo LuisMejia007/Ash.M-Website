@@ -1,0 +1,12 @@
+<h1 class = "section-title">
+  Additional Experience
+</h1>
+
+<div class = "container">
+  <div class = "row">
+    <div *ngFor = "let addExp of addExperiences">
+      <app-experience-info-card [experienceObj] = addExp >
+      </app-experience-info-card>
+    </div>
+  </div>
+</div>

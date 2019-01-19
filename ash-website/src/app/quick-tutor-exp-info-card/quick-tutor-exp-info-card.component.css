@@ -1,0 +1,58 @@
+.quickTutorExpContainer {
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.quickTutorExpImgsContainer {
+    width: 100%;
+    margin: 0 auto 10px auto;
+}
+.quickTutorExpImgsContainer, .quickTutorExpSummaryContainer {
+    display: block;
+    margin: 0 auto;
+    float: left;
+}
+.quickTutorExpSummaryContainer {
+    width: 49.8%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.quickTutorExpImgsContainer {
+    width: 100%;
+}
+
+.tutorPhoto { 
+    display: block;
+    float: left;
+    width: 50%;
+    height: 450px;
+    border-bottom: 1px solid black;
+    /* border: 1px solid black; */
+}
+.quickTutorSummary {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    margin: 10% 5%;
+}
+
+.readMore {
+    background-color: white;
+    color: black;
+    font-size: 2em;
+    font-family: 'Staatliches', cursive, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 2px 5px;
+    margin-top: 167px;
+}
+
+.readMore:hover{
+    cursor: pointer;
+    text-shadow: 5px 5px 10px rgba(73, 73, 73, 0.596);
+    transition: text-shadow 1s;
+    transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+}

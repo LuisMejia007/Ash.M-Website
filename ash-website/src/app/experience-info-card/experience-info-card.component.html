@@ -1,0 +1,15 @@
+<div class = "experienceInfoCardContainer">
+  <p class = "positionText"> {{ experienceObj.position }}</p>
+  <div class = "experienceTimelineInfoContainer">
+    <p class = "placeText"> {{experienceObj.place}}</p>
+    <p class = "locationText"> {{experienceObj.location }}</p>
+    <p class = "addressText"> {{experienceObj.address}}</p>
+    <p class = "durationText"> {{experienceObj.duration}}</p>
+  </div>
+  <div class = "responsibilityListContainer">
+    <ul class = "responsibilityList" *ngFor = "let responsibility of experienceObj.responsibilities">
+      <li class = "responsibilityInfo"> {{responsibility}} </li>
+    </ul>
+  </div>
+</div>
+

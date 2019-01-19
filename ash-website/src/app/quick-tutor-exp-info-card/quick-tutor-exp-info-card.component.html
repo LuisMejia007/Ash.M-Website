@@ -1,0 +1,13 @@
+<div class = "quickTutorExpContainer">
+    <div *ngFor = "let quickTutorExp of quickTutorExps">
+      <div class = "quickTutorExpImgsContainer">
+        <div class = "quickTutorExpImgs" *ngFor = "let photo of quickTutorExp.photos">
+            <img class = "tutorPhoto" src = {{photo}} alt = "My Research Photo">
+        </div> 
+        <div class = "quickTutorExpSummaryContainer">
+            <p class = "quickTutorSummary"> {{quickTutorExp.summary}} </p>
+            <h1 class = "readMore"> LEARN MORE </h1>
+          </div>
+      </div>
+    </div>
+  </div>
