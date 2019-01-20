@@ -3,7 +3,7 @@
     <div class = "quickEducationInfoCard" *ngFor = "let education of quickEducationArray">
       <div class = "quickEducationContainer">
           <img class = "schoolEmblem" src = {{education.emblem}} alt = "My School Emblem">
-          <p class = "schoolName"> {{education.school}} </p>
+          <b><p class = "schoolName"> {{education.school}} </p> </b>
           <p class = "schoolDegree"> {{education.degree}} </p>
           <p class = "schoolDuration"> {{ education.duration }}</p>
       </div>
@@ -11,8 +11,12 @@
     <div class = "readMoreContainer"> 
       <h1 class = "readMore" (click) = "toggleSlideDown()"> Read More </h1> 
     </div>
-    <div [@slideDown]="animationState" class = "schoolRolesContainer">
-      <p> Hello There! </p>
+    <div  class = "schoolRolesContainer">
+      <div [@slideDown]="animationState" class = "quickEducationInfoCard" *ngFor = "let education of quickEducationArray">
+        <ul class = "quickEducationRoleList" *ngFor = "let role of education.roles">
+          <li class = "educationRole"> {{role}} </li> 
+        </ul>
+      </div>
     </div>
   </div>  
 </div>

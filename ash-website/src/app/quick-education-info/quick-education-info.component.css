@@ -25,6 +25,10 @@
     color: rgba(0, 0, 0, 0.8);
 }
 
+.schoolName { 
+    font-weight: bolder;
+}
+
 .readMoreContainer { 
     width: 100%;
     display: block;
@@ -33,9 +37,4 @@
     text-align: center;
     font-family: 'Poppins', sans-serif;
     color: rgba(0, 0, 0, 0.8);
-}
-
-.schoolRolesContainer {
-    height: 0px;
-    border: 2px solid black;
 }

@@ -25,21 +25,21 @@ export const SlideDownAnimation = [
             animate('1ms ease-in-out', style({
                 visibility : 'visible'
             })),
-            animate('400ms ease-in-out', style({
+            animate('1000ms ease-in-out', style({
                 opacity: '1'
             })),
-            animate('800ms ease-in-out', style({
+            animate('1010ms ease-in-out', style({
                 maxHeight: '500px'
             }))
         ])]),
         transition('open => close', [group([
-            animate('1ms ease-in-out', style({
+            animate('1000ms ease-in-out', style({
                 visibility: 'hidden'
             })),
-            animate('400ms ease-in-out', style({
+            animate('1005ms ease-in-out', style({
                 opacity: '0'
             })),
-            animate('800ms ease-in-out', style({
+            animate('1010ms ease-in-out', style({
                 maxHeight: '0px'
             }))
         ])])
