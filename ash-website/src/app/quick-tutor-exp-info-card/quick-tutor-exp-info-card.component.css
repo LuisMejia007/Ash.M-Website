@@ -16,7 +16,7 @@
 .quickTutorExpSummaryContainer {
     width: 49.8%;
     height: 100%;
-    border: 1px solid black;
+    
 }
 
 .quickTutorExpImgsContainer {
@@ -28,7 +28,7 @@
     float: left;
     width: 50%;
     height: 450px;
-    border-bottom: 1px solid black;
+    
     /* border: 1px solid black; */
 }
 .quickTutorSummary {

@@ -11,6 +11,8 @@ import { ExperienceInfoCardComponent } from './experience-info-card/experience-i
 import { StickNavDirective } from './directives/stick-nav.directive';
 import { QuickBioExpInfoCardComponent } from './quick-bio-exp-info-card/quick-bio-exp-info-card.component';
 import { QuickTutorExpInfoCardComponent } from './quick-tutor-exp-info-card/quick-tutor-exp-info-card.component';
+import { QuickAddExpInfoCardComponent } from './quick-add-exp-info-card/quick-add-exp-info-card.component';
+import { QuickEducationInfoComponent } from './quick-education-info/quick-education-info.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { QuickTutorExpInfoCardComponent } from './quick-tutor-exp-info-card/quic
     ExperienceInfoCardComponent,
     StickNavDirective,
     QuickBioExpInfoCardComponent,
-    QuickTutorExpInfoCardComponent
+    QuickTutorExpInfoCardComponent,
+    QuickAddExpInfoCardComponent,
+    QuickEducationInfoComponent
   ],
   imports: [
     BrowserModule
