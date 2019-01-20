@@ -9,7 +9,10 @@
       </div>
     </div>
     <div class = "readMoreContainer"> 
-      <h1 class = "readMore"> Read More </h1> 
+      <h1 class = "readMore" (click) = "toggleSlideDown()"> Read More </h1> 
+    </div>
+    <div [@slideDown]="animationState" class = "schoolRolesContainer">
+      <p> Hello There! </p>
     </div>
   </div>  
 </div>

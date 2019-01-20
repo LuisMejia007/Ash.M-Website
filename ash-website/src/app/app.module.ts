@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { EducationExpComponent } from './education-exp/education-exp.component';
 import { TutoringExpComponentComponent } from './tutoring-exp-component/tutoring-exp-component.component';
@@ -30,7 +30,8 @@ import { QuickEducationInfoComponent } from './quick-education-info/quick-educat
     QuickEducationInfoComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
