@@ -34,7 +34,27 @@
     display: block;
 }
 .readMore { 
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     color: rgba(0, 0, 0, 0.8);
+}
+
+.readMore:hover { 
+    cursor: pointer;
+    text-shadow: 0.2px 0.2px 2px rgba(0, 0, 0, 0.39);
+}
+
+.quickEducationRoleList {
+    list-style: none;
+    text-align: center;
+}
+
+.educationRole {
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(102, 100, 100);
+    
 }

@@ -9,12 +9,12 @@
       </div>
     </div>
     <div class = "readMoreContainer"> 
-      <h1 class = "readMore" (click) = "toggleSlideDown()"> Read More </h1> 
+      <h1 class = "readMore" (click) = "toggleSlideDown()"> See More </h1> 
     </div>
     <div  class = "schoolRolesContainer">
       <div [@slideDown]="animationState" class = "quickEducationInfoCard" *ngFor = "let education of quickEducationArray">
-        <ul class = "quickEducationRoleList" *ngFor = "let role of education.roles">
-          <li class = "educationRole"> {{role}} </li> 
+        <ul class = "quickEducationRoleList" >
+          <li class = "educationRole" *ngFor = "let role of education.roles" > {{role}} </li> 
         </ul>
       </div>
     </div>

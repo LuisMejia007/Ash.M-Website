@@ -13,6 +13,12 @@ import { QuickBioExpInfoCardComponent } from './quick-bio-exp-info-card/quick-bi
 import { QuickTutorExpInfoCardComponent } from './quick-tutor-exp-info-card/quick-tutor-exp-info-card.component';
 import { QuickAddExpInfoCardComponent } from './quick-add-exp-info-card/quick-add-exp-info-card.component';
 import { QuickEducationInfoComponent } from './quick-education-info/quick-education-info.component';
+import { RouterModule, Routes} from '@angular/router';
+import { MainBioExpPageComponent } from './main-bio-exp-page/main-bio-exp-page.component';
+import { MainTutorExpPageComponent } from './main-tutor-exp-page/main-tutor-exp-page.component';
+import { MainAddExpPageComponent } from './main-add-exp-page/main-add-exp-page.component';
+import { AppRoutingModule } from './/app-routing.module';
+
 
 @NgModule({
   declarations: [
@@ -27,11 +33,15 @@ import { QuickEducationInfoComponent } from './quick-education-info/quick-educat
     QuickBioExpInfoCardComponent,
     QuickTutorExpInfoCardComponent,
     QuickAddExpInfoCardComponent,
-    QuickEducationInfoComponent
+    QuickEducationInfoComponent,
+    MainBioExpPageComponent,
+    MainTutorExpPageComponent,
+    MainAddExpPageComponent
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
