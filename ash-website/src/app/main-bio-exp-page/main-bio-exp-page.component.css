@@ -1,0 +1,14 @@
+p {
+    font-size: 40px;
+}
+
+.mainBioImgBannerContainer {
+    width: 100%;
+    margin:0 auto;
+    background-image: url('../assets/imgs/ashProLabCoat.jpg');
+}
+.mainBioImg { 
+    width: 100%;
+    margin: 0;
+    height: 600px;
+}

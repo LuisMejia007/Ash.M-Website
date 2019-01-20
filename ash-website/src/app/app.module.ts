@@ -18,6 +18,7 @@ import { MainBioExpPageComponent } from './main-bio-exp-page/main-bio-exp-page.c
 import { MainTutorExpPageComponent } from './main-tutor-exp-page/main-tutor-exp-page.component';
 import { MainAddExpPageComponent } from './main-add-exp-page/main-add-exp-page.component';
 import { AppRoutingModule } from './/app-routing.module';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import { AppRoutingModule } from './/app-routing.module';
     QuickEducationInfoComponent,
     MainBioExpPageComponent,
     MainTutorExpPageComponent,
-    MainAddExpPageComponent
+    MainAddExpPageComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
