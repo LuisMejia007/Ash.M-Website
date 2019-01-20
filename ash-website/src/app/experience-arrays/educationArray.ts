@@ -26,9 +26,9 @@ export const educationArray: Education[] = [
 
     {
         school: 'Queen Mary University of London',
-        duration: 'Winter 2016',
+        duration: 'Spring 2016',
         emblem: '../assets/imgs/queenMaryEmblem.png',
-        degree: 'General Education',
+        degree: 'Study Abroad',
         roles: ['Studied Physiology' , 'Studied Bio-Chemistry', ' Studied Geographies of Biomedicine and Global Health']
     }
 

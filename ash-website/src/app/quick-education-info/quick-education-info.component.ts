@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Education } from '../experience-arrays/education';
 import { educationArray } from '../experience-arrays/educationArray';
+import {SlideDownAnimation} from '../assets/animations/slideDown';
 
 @Component({
   selector: 'app-quick-education-info',
@@ -10,6 +11,7 @@ import { educationArray } from '../experience-arrays/educationArray';
 export class QuickEducationInfoComponent implements OnInit {
 
   quickEducationArray: Education[] = educationArray;
+  animationState: 'close';
   constructor() { }
 
   ngOnInit() {
