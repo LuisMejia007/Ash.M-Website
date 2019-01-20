@@ -1,0 +1,36 @@
+.quickEducationInfoContainer{ 
+    width: 100%;
+    margin: 85px auto 55px auto;
+    flex-wrap: nowrap;
+}
+.quickEducationInfoCard { 
+    width: 33.33%;
+    margin: 0 auto;
+    display: block;
+    float: left;
+}
+.quickEducationContainer {
+    
+    align-content: center;
+}
+.schoolEmblem {
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.schoolName, .schoolDuration, .schoolDegree { 
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.readMoreContainer { 
+    width: 100%;
+    display: block;
+}
+.readMore { 
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+}

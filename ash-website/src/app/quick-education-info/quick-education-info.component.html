@@ -1,3 +1,15 @@
-<p>
-  quick-education-info works!
-</p>
+<div class = "quickEducationInfoContainer">
+  <div class = "quickEducationInfoCardContainer">
+    <div class = "quickEducationInfoCard" *ngFor = "let education of quickEducationArray">
+      <div class = "quickEducationContainer">
+          <img class = "schoolEmblem" src = {{education.emblem}} alt = "My School Emblem">
+          <p class = "schoolName"> {{education.school}} </p>
+          <p class = "schoolDegree"> {{education.degree}} </p>
+          <p class = "schoolDuration"> {{ education.duration }}</p>
+      </div>
+    </div>
+    <div class = "readMoreContainer"> 
+      <h1 class = "readMore"> Read More </h1> 
+    </div>
+  </div>  
+</div>
