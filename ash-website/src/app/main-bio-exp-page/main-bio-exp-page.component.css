@@ -1,14 +1,22 @@
-p {
-    font-size: 40px;
-}
-
 .mainBioImgBannerContainer {
     width: 100%;
+    height: 500px;
     margin:0 auto;
-    background-image: url('../assets/imgs/ashProLabCoat.jpg');
+    background-color: black;
 }
 .mainBioImg { 
-    width: 100%;
-    margin: 0;
-    height: 600px;
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.belizeSummaryPageContainer {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.belizeSummary { 
+    color: white;
+    font-family: 'Poppins', sans-serif;
 }
