@@ -1,24 +1,58 @@
-.mainBioImgBannerContainer {
+.mainBioInfoBannerContainer {
     width: 100%;
     height: 550px;
     margin:0 auto;
-    background-color: black;
+    flex-wrap: nowrap;
 }
-.mainBelizeBioImg { 
-    width: 60%;
+
+.imgContainer { 
+    width: 50%;
+    display: block;
+    float: left;
+}
+.mainBelizeBioImg, .mainGambusiaBioImg { 
+    width: 100%;
     display: block;
     margin: 0 auto;
     height: 500px;
 }
 
-.belizeSlideControlsContainer { 
-    width: 50%;
+.pictureElementsContainer {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    background-color: black;
+    height: 116px;
+}
+
+.imgDescriptionContainer {
+    height: 80px;
+    width: 100%;
+    display: block;
+    margin: 5px auto;
+    position: relative;
+    bottom: 0px;
+    float: left;
+}
+.pictureDescription {
+    color: white;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    padding: 13px;
+    text-align: center;
+}
+
+.belizeSlideControlsContainer, .gambusiaSlideControlsContainer { 
+    width: 100%;
     margin: 0 auto;
     display: block;
-    height: 100px; 
-    
+    height: 25px; 
+    position: relative;
+    bottom: 0px;
+    float: left;
 }
-.belizeSlideControl {
+.belizeSlideControl, .gambusiaSlideControl {
     width: 50%;
     display: block;
     float: left;
@@ -26,23 +60,68 @@
     text-align: center;
     background-color: rgba(0, 0, 0, 0.452);
     color: white;
+    font-size: 20px;
 }
-.belizeSlideControl:hover {
+.belizeSlideControl:hover, .gambusiaSlideControl:hover  {
     cursor: pointer;
     color:rgb(241, 213, 50);
 }
-.belizeSummaryPageContainer {
-    width: 40%;
+.belizeSummaryPageContainer, .gambusiaSummaryPageContainer {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    float: left;
+}
+
+.titleContainer, .summaryContainer {
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0px 5px;
+}
+.researchTitle { 
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+}
+.researchDate, .researchPosition, .researchLocation {
+    color: rgba(0, 0, 0, 0.473);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    display: block;
+    float: left;
+    width: 100%;
     margin: 0 auto;
 }
 
-.belizeSummary { 
-    color: white;
+.researchSummary { 
+    color: rgba(0, 0, 0, 0.644);
     font-family: 'Poppins', sans-serif;
-    font-size: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 20px auto;
 }
 
-.pictureDescription {
-    color: white;
-    font-size: 30px;
+.insideInfoList {
+    color: rgba(0, 0, 0, 0.473);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 20px auto;
 }

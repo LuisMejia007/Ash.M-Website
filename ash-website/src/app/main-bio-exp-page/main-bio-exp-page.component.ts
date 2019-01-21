@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {belizePics} from '../experience-arrays/belizePhotosArray';
 import { Picture } from '../experience-arrays/picture';
+import {mosquitoPhotosArray} from '../experience-arrays/mosquitoesPhotosArray';
 @Component({
   selector: 'app-main-bio-exp-page',
   templateUrl: './main-bio-exp-page.component.html',
@@ -11,12 +12,15 @@ export class MainBioExpPageComponent implements OnInit {
   belizePictures: Picture[] = belizePics;
   belizePicIndex = 0;
 
+  gambusiaAffinisPics: Picture[] = mosquitoPhotosArray;
+  gambusiaPicIndex = 0;
+
   constructor() { }
 
   ngOnInit() {
   }
 
-  prevSlide() {
+  prevBelizeSlide() {
     const mainPic: HTMLImageElement = document.querySelector('#belizeImg');
     const mainPicDesc: HTMLElement = document.getElementById('belizeImgDescription');
 
@@ -40,7 +44,7 @@ export class MainBioExpPageComponent implements OnInit {
     }
 
   }
-  nextSlide() {
+  nextBelizeSlide() {
     const mainPic: HTMLImageElement = document.querySelector('#belizeImg');
     const mainPicDesc: HTMLElement = document.getElementById('belizeImgDescription');
 
@@ -64,4 +68,56 @@ export class MainBioExpPageComponent implements OnInit {
     }
 
   }
+
+
+
+  prevGambusiaSlide() {
+    const mainPic: HTMLImageElement = document.querySelector('#gambusiaImg');
+    const mainPicDesc: HTMLElement = document.getElementById('gambusiaImgDescription');
+
+    if (Math.abs(this.gambusiaPicIndex) >= this.gambusiaAffinisPics.length) {
+
+        this.gambusiaPicIndex = 0;
+        mainPic.src = this.gambusiaAffinisPics[this.gambusiaPicIndex].url;
+        mainPicDesc.innerHTML = this.gambusiaAffinisPics[this.gambusiaPicIndex].description;
+
+    } else if (Math.abs(this.gambusiaPicIndex) === this.gambusiaAffinisPics.length - 1) {
+
+      this.gambusiaPicIndex = 0;
+      mainPic.src = this.gambusiaAffinisPics[this.gambusiaPicIndex].url;
+      mainPicDesc.innerHTML = this.gambusiaAffinisPics[this.gambusiaPicIndex].description;
+
+    } else {
+
+      this.gambusiaPicIndex--;
+      mainPic.src = this.gambusiaAffinisPics[Math.abs(this.gambusiaPicIndex)].url;
+      mainPicDesc.innerHTML = this.gambusiaAffinisPics[this.gambusiaPicIndex].description;
+    }
+
+  }
+  nextGambusiaSlide() {
+    const mainPic: HTMLImageElement = document.querySelector('#gambusiaImg');
+    const mainPicDesc: HTMLElement = document.getElementById('gambusiaImgDescription');
+
+    if (this.gambusiaPicIndex >= this.gambusiaAffinisPics.length) {
+
+        this.gambusiaPicIndex = 0;
+        mainPic.src = this.gambusiaAffinisPics[this.gambusiaPicIndex].url;
+        mainPicDesc.innerHTML = this.gambusiaAffinisPics[this.gambusiaPicIndex].description;
+
+    } else if (this.gambusiaPicIndex === this.gambusiaAffinisPics.length - 1) {
+
+      this.gambusiaPicIndex = 0;
+      mainPic.src = this.gambusiaAffinisPics[this.gambusiaPicIndex].url;
+      mainPicDesc.innerHTML = this.gambusiaAffinisPics[this.gambusiaPicIndex].description;
+
+    } else {
+
+      this.gambusiaPicIndex++;
+      mainPic.src = this.gambusiaAffinisPics[this.gambusiaPicIndex].url;
+      mainPicDesc.innerHTML = this.gambusiaAffinisPics[this.gambusiaPicIndex].description;
+    }
+
+  }
+
 }

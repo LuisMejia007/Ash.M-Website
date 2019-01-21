@@ -1,13 +1,5 @@
 import { Picture } from "./picture";
 
-// export const belizePics: string[] = [
-//     '../assets/imgs/ashScuba.jpg',
-//     '../assets/imgs/ashSnakePic.jpg',
-//     '../assets/imgs/ashNotesBelize.jpg',
-//     '../assets/imgs/ashleyCuttingWood.jpg',
-//     '../assets/imgs/ashWithToad.jpg'
-// ];
-
 export const belizePics: Picture[] = [
     {url: '../assets/imgs/ashScuba.jpg', description: 'Taking field notes in Belize'},
     {url: '../assets/imgs/ashSnakePic.jpg', description: 'Touching a snake'},
