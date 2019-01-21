@@ -40,7 +40,7 @@ export class MainBioExpPageComponent implements OnInit {
 
       this.belizePicIndex--;
       mainPic.src = this.belizePictures[Math.abs(this.belizePicIndex)].url;
-      mainPicDesc.innerHTML = this.belizePictures[this.belizePicIndex].description;
+      mainPicDesc.innerHTML = this.belizePictures[Math.abs(this.belizePicIndex)].description;
     }
 
   }
@@ -91,7 +91,7 @@ export class MainBioExpPageComponent implements OnInit {
 
       this.gambusiaPicIndex--;
       mainPic.src = this.gambusiaAffinisPics[Math.abs(this.gambusiaPicIndex)].url;
-      mainPicDesc.innerHTML = this.gambusiaAffinisPics[this.gambusiaPicIndex].description;
+      mainPicDesc.innerHTML = this.gambusiaAffinisPics[Math.abs(this.gambusiaPicIndex)].description;
     }
 
   }
