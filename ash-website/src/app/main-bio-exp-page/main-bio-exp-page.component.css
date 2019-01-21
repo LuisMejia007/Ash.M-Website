@@ -6,24 +6,24 @@
 }
 
 .imgContainer { 
-    width: 50%;
-    display: block;
-    float: left;
-}
-.mainBelizeBioImg, .mainGambusiaBioImg { 
-    width: 100%;
+    width: 80%;
     display: block;
     margin: 0 auto;
-    height: 500px;
+}
+.mainBelizeBioImg, .mainGambusiaBioImg { 
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    height: 400px;
 }
 
 .pictureElementsContainer {
-    width: 100%;
+    width: 60%;
     display: block;
     margin: 0 auto;
     flex-wrap: wrap;
     background-color: black;
-    height: 160px;
+    height: 100px;
 }
 
 .imgDescriptionContainer {
@@ -37,7 +37,7 @@
 }
 .pictureDescription {
     color: white;
-    font-size: 1em;
+    font-size: 0.9em;
     font-family: 'Poppins', sans-serif;
     padding: 13px;
     text-align: center;
@@ -58,8 +58,7 @@
     float: left;
     margin: 0 auto;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.452);
-    color: white;
+    color: black;
     font-size: 20px;
 }
 .belizeSlideControl:hover, .gambusiaSlideControl:hover  {
@@ -67,18 +66,33 @@
     color:rgb(241, 213, 50);
 }
 .belizeSummaryPageContainer, .gambusiaSummaryPageContainer {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     display: block;
     float: left;
 }
 
-.titleContainer, .summaryContainer {
+.titleContainer{
     width: 100%;
     flex-wrap: wrap;
+    display: block;
     margin: 0 auto;
     padding: 0px 5px;
 }
+.summaryAndLinksContainer {
+    width: 100%;
+    margin: 5 auto;
+    flex-wrap: nowrap;
+    display: block;
+}
+.summaryContainer, .relevantLinksContainer {
+    display: block;
+    width: 50%;
+    margin: 0 auto 20px auto;
+    padding: 10px;
+    
+}
+
 .researchTitle { 
     color: black;
     font-family: 'Poppins', sans-serif;
@@ -88,7 +102,7 @@
     display: block;
     float: left;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto 0 5%;
 }
 .researchDate, .researchPosition, .researchLocation {
     color: rgba(0, 0, 0, 0.473);
@@ -99,7 +113,11 @@
     display: block;
     float: left;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto 0 5%;
+}
+
+.researchLocation {
+    margin: 0 auto 2% 5%;
 }
 
 .researchSummary { 
@@ -111,6 +129,7 @@
     display: block;
     float: left;
     width: 100%;
+    padding: 10px;
 }
 
 .insideInfoList {
