@@ -23,7 +23,7 @@
     margin: 0 auto;
     flex-wrap: wrap;
     background-color: black;
-    height: 120px;
+    height: 160px;
 }
 
 .imgDescriptionContainer {
@@ -45,7 +45,7 @@
 
 .belizeSlideControlsContainer, .gambusiaSlideControlsContainer { 
     width: 100%;
-    margin: 0 auto;
+    margin: 35px auto;
     display: block;
     height: 25px; 
     position: relative;
@@ -105,13 +105,12 @@
 .researchSummary { 
     color: rgba(0, 0, 0, 0.644);
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: 0.9em;
     font-weight: bold;
     text-align: left;
     display: block;
     float: left;
     width: 100%;
-    margin: 20px auto;
 }
 
 .insideInfoList {
@@ -125,3 +124,17 @@
     width: 100%;
     margin: 20px auto;
 }
+
+.relevantLinksHeader {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 10px;
+}
+.relevantLinks { 
+    list-style: none;
+}
+
+.relevantLinkItem  a{ 
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;
+}
+

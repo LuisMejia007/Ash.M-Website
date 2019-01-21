@@ -1,5 +1,40 @@
 <div class = "mainBioPageContainer">
 
+
+        <div class = "mainBioInfoBannerContainer">
+                <div class = "belizeSummaryPageContainer">
+                        <div class = "titleContainer">
+                            <h2 class = "researchTitle"> Belize Field Study </h2>
+                            <p class = "researchDate"> May - June 2014</p>
+                            <p class = "researchPosition"> Field Research Assistant</p>
+                        </div>
+                        <div class = "summaryContainer">
+                          <p class = "researchSummary">
+                            During my time in the <b> Belize Field Study Program</b> 
+                            I was studying the ecosystems within Belize's rainforests and coral reefs alongside
+                            Sewanee peers and Dr. Brandon Moore. <br> We conducted various experiments within these settings
+                            and in light of our findings we we're able to determine the impact that pollution and deforestation had on these ecosystems.
+                          </p>
+                        </div>
+                      </div> 
+            <div class = "imgContainer">
+                <img id = "belizeImg" class = "mainBelizeBioImg" src = {{belizePictures[0].url}}>
+                <div class = "pictureElementsContainer">
+                    <div class = "imgDescriptionContainer">
+                        <p id = "belizeImgDescription" class = "pictureDescription"> {{ belizePictures[0].description }} </p>
+                    </div>
+                    <div class = "belizeSlideControlsContainer">
+                        <h1 class = "belizeSlideControl" (click) = "prevBelizeSlide()"> < </h1>
+                        <h1 class = "belizeSlideControl" (click) = "nextBelizeSlide()"> > </h1>
+                    </div>
+                </div>
+            </div>
+        
+          </div>
+        
+
+
+
     <div class = "mainBioInfoBannerContainer">
         <div class = "imgContainer">
             <img id = "gambusiaImg" class = "mainGambusiaBioImg" src = {{gambusiaAffinisPics[0].url}}>
@@ -12,6 +47,17 @@
                     <h1 class = "gambusiaSlideControl" (click) = "nextGambusiaSlide()"> > </h1>
                 </div>
             </div>
+            <div class = "relevantLinksContainer">
+                <div class = "relevantLinksHeaderContainer">
+                    <h3 class = "relevantLinksHeader"> Relevants Links </h3>
+                </div>
+                <div class = "relevantLinksListContainer">
+                    <ul class = "relevantLinks">
+                        <li class = "relevantLinkItem"> <a href = "http://www.sewanee.edu/media/academics/medical-and-health/pdf/JoSS-Advent-2016_spreads.pdf#page=22"> 
+                            Published Work: "Using Mosquito (Gambusia affinis) as bioindicator for environmental quality on the domain" </a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <div class = "gambusiaSummaryPageContainer">
           <div class = "titleContainer">
@@ -22,55 +68,67 @@
           </div>
           <div class = "summaryContainer">
             <p class = "researchSummary">
-              As a research assistant for Dr. Brandon Moore's study of using mosquito fish (Gambusia affinis) as a bioindicator for environmental quality, I was responsible for many tasks including 
-              collecting various specimens and inputting all their data within a master Excel data sheet. Once we allocated all data, we researched various scientific literature to help us formulate an effective protocol to begin staining specimens (describe what this is!). 
-              We performed many techniques in staining the specimen and recorded all our findings in an Excel sheet. Upon analyzing all of our data we commenced in creating posters of our findings. Through our findings we were invited to conferences in two different states: 
+                    As a research assistant for Dr. Brandon Moore's study of using mosquitofish (Gambusia affinis) as a bioindicator for environmental quality, I was responsible for many tasks including collecting juvenile, male, and female specimens from our university’s domain sewage plant and local water bodies. 
+                    In addition, inputting all physical data within a master Excel data sheet. Once we allocated all data, we researched various scientific literature to help us formulate an effective protocol to begin the clearing and staining specimens. 
+                    We decided on clearing and staining the specimens due to clear visibility of bone and cartilage, which allows for clearer measurements on sexual dimophic traits, such as the hemal spines present in both adult female and male Gambusia and gonodopdium and anal fin on the male and female respectively. 
+                    We recorded all our findings in an Excel sheet. I trained incoming research members on creating and stocking solutions, performing protocols, and inputting data in our master Excel data sheet.
+                    <br>
+                    We collaborated with Dr. Brian Langerhans lab from North Carolina State University <br>to X-ray our specimens in order for us to compare and contrast our original measuring method results, clearing and stating  to X-ray. Upon analyzing all of our data we commenced in creating posters of our findings. Through our findings we were invited to regional and national conferences in two different states:
             </p> 
               <ul class = "insideInfoList">
-                <li class = "insideInfoListItem"> Southeastern Society of Integrative and Comparative Biology Conference at Georgia Tech in Atlanta, GA</li>
+                <li class = "insideInfoListItem"> Southeastern Society of Integrative and Comparative Biology Conference <br> at Georgia Tech inAtlanta, GA</li>
+                <li class = "insideInfoListItem"> Society of Integrative and Comparative Biology Conference in Portland, OR </li>
                 <li class = "insideInfoListItem"> Society of Integrative and Comparative Biology Conference in New Orleans, LA </li>
               </ul>
             <p class = "researchSummary">
-              There, I presented our findings: "Raised in a sewage treatment plant: Assessing sexually dimorphic skeletal elements in Gambusia affinis"
-              and "Comparing Two Techniques of Analyzing Sexual Dimorphic Gambusia affinis Skeletal Structure: Clearing and Staining to X-Ray" at each respective conference.
-              Furthermore, my article "Using Mosquito (Gambusia affinis) as bioindicator for environmental quality on the domain" was published in my University's Science Journal. 
-              In the final years of my research, I trained incoming research members on creating and stocking solutions, performing protocols, and inputting data in our master Excel data sheet. 
-            </p>
+                    There, I presented our findings: "Raised in a sewage treatment plant: Assessing sexually dimorphic skeletal elements in Gambusia affinis" and "Comparing Two Techniques of Analyzing Sexual Dimorphic Gambusia affinis Skeletal Structure: Clearing and Staining to X-Ray" at each respective conference. 
+                    Furthermore, my article "Using Mosquito (Gambusia affinis) as bioindicator for environmental quality on the domain" was published in my University's Science Journal
+                </p> 
+            
           </div>
         </div> 
       </div>
 
-  <div class = "mainBioInfoBannerContainer">
-        <div class = "belizeSummaryPageContainer">
-                <div class = "titleContainer">
-                    <h2 class = "researchTitle"> Belize Field Study </h2>
-                    <p class = "researchDate"> May - June 2014</p>
-                    <p class = "researchPosition"> Field Research Assistant</p>
+      <div class = "mainBioInfoBannerContainer">
+            <div class = "imgContainer">
+                <img id = "gambusiaImg" class = "mainGambusiaBioImg" src = {{gambusiaAffinisPics[0].url}}>
+                <div class = "pictureElementsContainer">
+                    <div class = "imgDescriptionContainer">
+                        <p id = "gambusiaImgDescription" class = "pictureDescription"> {{ gambusiaAffinisPics[0].description }} </p>
+                    </div>
+                    <div class = "gambusiaSlideControlsContainer">
+                        <h1 class = "gambusiaSlideControl" (click) = "prevGambusiaSlide()"> < </h1>
+                        <h1 class = "gambusiaSlideControl" (click) = "nextGambusiaSlide()"> > </h1>
+                    </div>
                 </div>
-                <div class = "summaryContainer">
-                  <p class = "researchSummary">
-                    During my time in the <b> Belize Field Study Program</b> 
-                    I was studying the ecosystems within Belize's rainforests and coral reefs alongside
-                    Sewanee peers and Dr. Brandon Moore. We conducted various experiments within these settings
-                    and in light of our findings we we're able to determine the impact that pollution and deforestation had on these ecosystems.
-                  </p>
-                </div>
-              </div> 
-    <div class = "imgContainer">
-        <img id = "belizeImg" class = "mainBelizeBioImg" src = {{belizePictures[0].url}}>
-        <div class = "pictureElementsContainer">
-            <div class = "imgDescriptionContainer">
-                <p id = "belizeImgDescription" class = "pictureDescription"> {{ belizePictures[0].description }} </p>
             </div>
-            <div class = "belizeSlideControlsContainer">
-                <h1 class = "belizeSlideControl" (click) = "prevBelizeSlide()"> < </h1>
-                <h1 class = "belizeSlideControl" (click) = "nextBelizeSlide()"> > </h1>
-            </div>
-        </div>
-    </div>
-
-  </div>
-
-
+            <div class = "gambusiaSummaryPageContainer">
+              <div class = "titleContainer">
+                  <h2 class = "researchTitle"> Mosquito Fish as a Bioindicator for Environmental Quality</h2>
+                  <p class = "researchDate"> Fall 2014 - Spring 2017 </p>
+                  <p class = "researchPosition"> Research Assistant </p>
+                  <p class = "researchLocation"> Biology Department: The University of the South</p>
+              </div>
+              <div class = "summaryContainer">
+                <p class = "researchSummary">
+                        As a research assistant for Dr. Brandon Moore's study of using mosquitofish (Gambusia affinis) as a bioindicator for environmental quality, I was responsible for many tasks including collecting juvenile, male, and female specimens from our university’s domain sewage plant and local water bodies. 
+                        In addition, inputting all physical data within a master Excel data sheet. Once we allocated all data, we researched various scientific literature to help us formulate an effective protocol to begin the clearing and staining specimens. 
+                        We decided on clearing and staining the specimens due to clear visibility of bone and cartilage, which allows for clearer measurements on sexual dimophic traits, such as the hemal spines present in both adult female and male Gambusia and gonodopdium and anal fin on the male and female respectively. 
+                        We recorded all our findings in an Excel sheet. I trained incoming research members on creating and stocking solutions, performing protocols, and inputting data in our master Excel data sheet.
+                        <br>
+                        We collaborated with Dr. Brian Langerhans lab from North Carolina State University <br>to X-ray our specimens in order for us to compare and contrast our original measuring method results, clearing and stating  to X-ray. Upon analyzing all of our data we commenced in creating posters of our findings. Through our findings we were invited to regional and national conferences in two different states:
+                </p> 
+                  <ul class = "insideInfoList">
+                    <li class = "insideInfoListItem"> Southeastern Society of Integrative and Comparative Biology Conference <br> at Georgia Tech inAtlanta, GA</li>
+                    <li class = "insideInfoListItem"> Society of Integrative and Comparative Biology Conference in Portland, OR </li>
+                    <li class = "insideInfoListItem"> Society of Integrative and Comparative Biology Conference in New Orleans, LA </li>
+                  </ul>
+                <p class = "researchSummary">
+                        There, I presented our findings: "Raised in a sewage treatment plant: Assessing sexually dimorphic skeletal elements in Gambusia affinis" and "Comparing Two Techniques of Analyzing Sexual Dimorphic Gambusia affinis Skeletal Structure: Clearing and Staining to X-Ray" at each respective conference. 
+                        Furthermore, my article "Using Mosquito (Gambusia affinis) as bioindicator for environmental quality on the domain" was published in my University's Science Journal. 
+                </p>
+              </div>
+            </div> 
+          </div>
 
 </div>
