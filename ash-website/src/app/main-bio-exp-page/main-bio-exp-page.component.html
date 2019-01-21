@@ -1,9 +1,17 @@
 <div class = "mainBioPageContainer">
   <div class = "mainBioImgBannerContainer">
-    <img id = "belizeImg" class = "mainBelizeBioImg" src = "../assets/imgs/ashScuba.jpg">
-    <h1 (click) = "nextSlide()"> CLICK! </h1>
+    <div class = "imgContainer">
+        <img id = "belizeImg" class = "mainBelizeBioImg" src = {{belizePictures[0].url}}>
+        <div class = "imgDescriptionContainer">
+            <p id = "belizeImgDescription" class = "pictureDescription"> {{ belizePictures[0].description }} </p>
+        </div>
+    </div>
+    <div class = "belizeSlideControlsContainer">
+      <h1 class = "belizeSlideControl" (click) = "prevSlide()"> < </h1>
+      <h1 class = "belizeSlideControl" (click) = "nextSlide()"> > </h1>
+    </div>
   </div>
   <div class = "belizeSummaryPageContainer">
       <p class = "belizeSummary"> My Trip To Belize was wonderful!</p>
-    </div> 
+  </div> 
 </div>

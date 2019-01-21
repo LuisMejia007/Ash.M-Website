@@ -1,6 +1,6 @@
 .mainBioImgBannerContainer {
     width: 100%;
-    height: 500px;
+    height: 550px;
     margin:0 auto;
     background-color: black;
 }
@@ -11,6 +11,26 @@
     height: 500px;
 }
 
+.belizeSlideControlsContainer { 
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    height: 100px; 
+    
+}
+.belizeSlideControl {
+    width: 50%;
+    display: block;
+    float: left;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.452);
+    color: white;
+}
+.belizeSlideControl:hover {
+    cursor: pointer;
+    color:rgb(241, 213, 50);
+}
 .belizeSummaryPageContainer {
     width: 40%;
     margin: 0 auto;
@@ -19,4 +39,10 @@
 .belizeSummary { 
     color: white;
     font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+
+.pictureDescription {
+    color: white;
+    font-size: 30px;
 }
