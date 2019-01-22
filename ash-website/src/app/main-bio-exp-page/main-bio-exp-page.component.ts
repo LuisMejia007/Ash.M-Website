@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import {belizePics} from '../experience-arrays/belizePhotosArray';
 import { Picture } from '../experience-arrays/picture';
 import {mosquitoPhotosArray} from '../experience-arrays/mosquitoesPhotosArray';
+import { virologyPhotos } from '../experience-arrays/virologyPhotosArray';
+
 @Component({
   selector: 'app-main-bio-exp-page',
   templateUrl: './main-bio-exp-page.component.html',
@@ -14,6 +16,9 @@ export class MainBioExpPageComponent implements OnInit {
 
   gambusiaAffinisPics: Picture[] = mosquitoPhotosArray;
   gambusiaPicIndex = 0;
+
+  virologyPictures: Picture[] = virologyPhotos;
+  virologyPicIndex = 0;
 
   constructor() { }
 
@@ -119,5 +124,56 @@ export class MainBioExpPageComponent implements OnInit {
     }
 
   }
+
+
+  prevVirologySlide() {
+    const mainPic: HTMLImageElement = document.querySelector('#gambusiaImg');
+    const mainPicDesc: HTMLElement = document.getElementById('gambusiaImgDescription');
+
+    if (Math.abs(this.virologyPicIndex) >= this.virologyPictures.length) {
+
+        this.virologyPicIndex = 0;
+        mainPic.src = this.virologyPictures[this.virologyPicIndex].url;
+        mainPicDesc.innerHTML = this.virologyPictures[this.virologyPicIndex].description;
+
+    } else if (Math.abs(this.virologyPicIndex) === this.virologyPictures.length - 1) {
+
+      this.virologyPicIndex = 0;
+      mainPic.src = this.virologyPictures[this.virologyPicIndex].url;
+      mainPicDesc.innerHTML = this.virologyPictures[this.virologyPicIndex].description;
+
+    } else {
+
+      this.virologyPicIndex--;
+      mainPic.src = this.virologyPictures[Math.abs(this.virologyPicIndex)].url;
+      mainPicDesc.innerHTML = this.virologyPictures[Math.abs(this.virologyPicIndex)].description;
+    }
+
+  }
+  nextVirologySlide() {
+    const mainPic: HTMLImageElement = document.querySelector('#virologyImg');
+    const mainPicDesc: HTMLElement = document.getElementById('virologyImgDescription');
+
+    if (this.virologyPicIndex >= this.virologyPictures.length) {
+
+        this.gambusiaPicIndex = 0;
+        mainPic.src = this.virologyPictures[this.gambusiaPicIndex].url;
+        mainPicDesc.innerHTML = this.virologyPictures[this.gambusiaPicIndex].description;
+
+    } else if (this.virologyPicIndex === this.virologyPictures.length - 1) {
+
+      this.virologyPicIndex = 0;
+      mainPic.src = this.virologyPictures[this.virologyPicIndex].url;
+      mainPicDesc.innerHTML = this.virologyPictures[this.virologyPicIndex].description;
+
+    } else {
+
+      this.virologyPicIndex++;
+      mainPic.src = this.virologyPictures[this.virologyPicIndex].url;
+      mainPicDesc.innerHTML = this.virologyPictures[this.virologyPicIndex].description;
+    }
+
+  }
+
 
 }

@@ -3,6 +3,20 @@
     height: 550px;
     margin:0 auto;
     flex-wrap: nowrap;
+    background-image: url("../assets/imgs/petridish.jpg");
+}
+.mainBioWelcomeBanner {
+    width: 100%;
+    margin: 0 auto;
+    height: 300px;
+    text-align: center;
+    background-color: black;
+}
+
+.mainBioWelcomeHeading {
+    color: white;
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
 }
 
 .imgContainer { 

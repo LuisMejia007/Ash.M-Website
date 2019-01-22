@@ -9,10 +9,6 @@ import {Picture} from './picture';
         description: 'Working in the Gambusia Affinis lab.'
     },
     {
-        url: '../assets/imgs/ashTestTubes.jpg',
-        description: 'Finding staining and clearing solutes for experimentation'
-    },
-    {
         url: '../assets/imgs/ashDrMooreLousianaConference.jpg',
         description: 'Presenting findings in Society of Integrative and Comparative Biology Conference in New Orleans, LA'
     },
