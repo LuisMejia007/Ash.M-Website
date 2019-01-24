@@ -1,4 +1,4 @@
-import { Picture } from "./picture";
+import { Picture } from './picture';
 
 export const belizePics: Picture[] = [
     {url: '../assets/imgs/ashScuba.jpg', description: 'Taking field notes in Belize'},

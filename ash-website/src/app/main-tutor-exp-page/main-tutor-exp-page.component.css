@@ -29,8 +29,14 @@
     display: block;
     margin: 0 auto;
 }
-.mainBelizeBioImg, .mainGambusiaBioImg { 
+.mainMexicoTutorImg, .mainRussiaTutorImg { 
     width: 60%;
+    display: block;
+    margin: 0 auto;
+    height: 400px;
+}
+.mainSewaneeTutorImg { 
+    width: 30%;
     display: block;
     margin: 0 auto;
     height: 400px;
@@ -62,7 +68,7 @@
     text-align: center;
 }
 
-.belizeSlideControlsContainer, .gambusiaSlideControlsContainer { 
+.mexicoSlideControlsContainer, .russiaSlideControlsContainer, .sewaneeSlideControlsContainer { 
     width: 100%;
     margin: 35px auto;
     display: block;
@@ -71,7 +77,7 @@
     bottom: 0px;
     float: left;
 }
-.belizeSlideControl, .gambusiaSlideControl {
+.mexicoSlideControl, .russiaSlideControl, .sewaneeSlideControl {
     width: 50%;
     display: block;
     float: left;
@@ -80,11 +86,11 @@
     color: black;
     font-size: 20px;
 }
-.belizeSlideControl:hover, .gambusiaSlideControl:hover  {
+.mexicoSlideControl:hover, .russiaSlideControl:hover, .sewaneeSlideControl:hover  {
     cursor: pointer;
     color:rgb(241, 213, 50);
 }
-.belizeSummaryPageContainer, .gambusiaSummaryPageContainer {
+.mexicoSummaryPageContainer, .russiaSummaryPageContainer, .sewaneeSummaryPageContainer {
     width: 100%;
     margin: 0 auto;
     display: block;
