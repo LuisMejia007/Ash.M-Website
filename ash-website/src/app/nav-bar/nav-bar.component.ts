@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { SlideFromLeftAnimation } from '../assets/animations/slideFromLeft';
+import { SlideFromLeftAnimation } from 'src/assets/animations/slideFromLeft';
+
 
 @Component({
   selector: 'app-nav-bar',

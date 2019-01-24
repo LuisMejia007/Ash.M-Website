@@ -12,7 +12,7 @@
     height: 100%;
     width: 50%;
     margin: 0 auto;
-    display: block;
+    display: block !important;
     float: left;  
     flex-wrap: wrap;
     position: relative;
@@ -34,6 +34,7 @@
 }
 
 .mainNavBarHeading {
+    display: block;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 3em;
@@ -41,7 +42,7 @@
 }
 
 .mainNavBarLinksList {
-
+    display: block;
 }
 
 .mainNavBarItem { 
@@ -49,8 +50,9 @@
     text-align: center;
     color: white;
     list-style: none;
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 40px 0;
+    display: block;
 }
 .mainMenuButtonContainer { 
     display: block;
@@ -69,3 +71,19 @@
     height: 100px;
 }
 
+.mainMenuButton:hover { 
+    cursor: pointer;
+    color: goldenrod;
+    transition: color 0.5s;
+    transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+
+.mainNavBarItem:hover { 
+    cursor: pointer;
+    color: goldenrod;
+    transition: color 0.5s;
+    transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+}
