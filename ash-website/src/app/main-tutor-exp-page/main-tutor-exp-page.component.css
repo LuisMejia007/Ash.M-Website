@@ -1,0 +1,178 @@
+.mainTutoringPageContainer {
+    width: 100%;
+    height: 100px;
+    margin:0 auto;
+    flex-wrap: nowrap;    
+}
+.mainTutoringWelcomeBanner {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+    height: 300px;
+    background-image: url("src/assets/imgs/bigBenDrawing.jpg");
+    background-size: cover;
+    padding: 5px;
+}
+
+.mainTutoringWelcomeHeading {
+    color: white;
+    font-size: 4em;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 1px 1px 5px black;
+    position: relative;
+    top: 100px;
+}
+
+.imgContainer { 
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+.mainBelizeBioImg, .mainGambusiaBioImg { 
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.pictureElementsContainer {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    background-color: black;
+    height: 100px;
+}
+
+.imgDescriptionContainer {
+    height: 80px;
+    width: 100%;
+    display: block;
+    margin: 5px auto;
+    position: relative;
+    bottom: 0px;
+    float: left;
+}
+.pictureDescription {
+    color: white;
+    font-size: 0.9em;
+    font-family: 'Poppins', sans-serif;
+    padding: 13px;
+    text-align: center;
+}
+
+.belizeSlideControlsContainer, .gambusiaSlideControlsContainer { 
+    width: 100%;
+    margin: 35px auto;
+    display: block;
+    height: 25px; 
+    position: relative;
+    bottom: 0px;
+    float: left;
+}
+.belizeSlideControl, .gambusiaSlideControl {
+    width: 50%;
+    display: block;
+    float: left;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+.belizeSlideControl:hover, .gambusiaSlideControl:hover  {
+    cursor: pointer;
+    color:rgb(241, 213, 50);
+}
+.belizeSummaryPageContainer, .gambusiaSummaryPageContainer {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    float: left;
+}
+
+.titleContainer{
+    width: 100%;
+    flex-wrap: wrap;
+    display: block;
+    margin: 0 auto;
+    padding: 0px 5px;
+}
+.summaryAndLinksContainer {
+    width: 100%;
+    margin: 5 auto;
+    flex-wrap: nowrap;
+    display: block;
+}
+.summaryContainer, .relevantLinksContainer {
+    display: block;
+    width: 50%;
+    margin: 0 auto 20px auto;
+    padding: 10px;
+    
+}
+
+.researchTitle { 
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 0 auto 0 5%;
+}
+.researchDate, .researchPosition, .researchLocation {
+    color: rgba(0, 0, 0, 0.473);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 0 auto 0 5%;
+}
+
+.researchLocation {
+    margin: 0 auto 2% 5%;
+}
+
+.researchSummary { 
+    color: rgba(0, 0, 0, 0.644);
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: left;
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 10px;
+}
+
+.insideInfoList {
+    color: rgba(0, 0, 0, 0.473);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.relevantLinksHeader {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 10px;
+}
+.relevantLinks { 
+    list-style: none;
+}
+
+.relevantLinkItem  a{ 
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;
+}
+
