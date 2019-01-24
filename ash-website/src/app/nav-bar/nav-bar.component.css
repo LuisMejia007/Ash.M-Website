@@ -5,6 +5,7 @@
     z-index: 1;
     flex-wrap: nowrap;
     position: fixed;
+    padding-right: 50px; 
 }
 
 .mainNavBar {
@@ -19,7 +20,7 @@
 .mainNavBarLinksListContainer {
     display: block;
     margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.8); 
+    background-color: rgba(0, 0, 0, 0.904); 
     width: 100%;
     float: left;
     height: 100%;
@@ -28,7 +29,7 @@
     display: block;
     width: 100%;
     margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.904);
     float: left;
 }
 
@@ -44,6 +45,7 @@
 }
 
 .mainNavBarItem { 
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     color: white;
     list-style: none;
@@ -58,7 +60,7 @@
 }
 .mainMenuButton {
     color: white;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.904);
     font-size: 5em;
     display: block;
     padding: 1px;
