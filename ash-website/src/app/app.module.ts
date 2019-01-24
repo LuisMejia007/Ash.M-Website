@@ -19,6 +19,7 @@ import { MainTutorExpPageComponent } from './main-tutor-exp-page/main-tutor-exp-
 import { MainAddExpPageComponent } from './main-add-exp-page/main-add-exp-page.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { HomeComponent } from './home/home.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 
 @NgModule({
@@ -38,7 +39,8 @@ import { HomeComponent } from './home/home.component';
     MainBioExpPageComponent,
     MainTutorExpPageComponent,
     MainAddExpPageComponent,
-    HomeComponent
+    HomeComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,

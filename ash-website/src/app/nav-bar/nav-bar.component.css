@@ -1,0 +1,69 @@
+.mainNavBarContainer {
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+    z-index: 1;
+    flex-wrap: nowrap;
+    position: fixed;
+}
+
+.mainNavBar {
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    float: left;  
+    flex-wrap: wrap;
+    position: relative;
+}
+.mainNavBarLinksListContainer {
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.8); 
+    width: 100%;
+    float: left;
+    height: 100%;
+}
+.mainNavBarHeadingContainer {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    float: left;
+}
+
+.mainNavBarHeading {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;
+    color: white;
+}
+
+.mainNavBarLinksList {
+
+}
+
+.mainNavBarItem { 
+    text-align: center;
+    color: white;
+    list-style: none;
+    font-size: 2em;
+    margin: 40px 0;
+}
+.mainMenuButtonContainer { 
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    float: left;
+}
+.mainMenuButton {
+    color: white;
+    background-color: black;
+    font-size: 5em;
+    display: block;
+    padding: 1px;
+    width: 40px;
+    position: relative;
+    height: 100px;
+}
+
