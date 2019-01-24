@@ -34,7 +34,7 @@ export const SlideFromLeftAnimation = [
                 width: '30%'
             })),
             animate('1200ms ease-in-out', style({
-                width: '50%'
+                width: '0%'
             }))
         ])])
     ])

@@ -1,5 +1,5 @@
 <div class = "mainNavBarContainer">
-  <nav class = "mainNavBar">
+  <nav [@slideFromLeft] = "sideBarMenu" class = "mainNavBar">
     <div class = "mainNavBarHeadingContainer">
         <h1 class = "mainNavBarHeading"> Ashley <br> Malpica </h1>
     </div>
@@ -13,6 +13,6 @@
     </div>
   </nav>
   <div class = "mainMenuButtonContainer">
-    <h1 class = "mainMenuButton"> &rsaquo; </h1>
+    <h1 class = "mainMenuButton" (click) = "toggleSideNavMenu()"> &rsaquo; </h1>
   </div>
 </div>
