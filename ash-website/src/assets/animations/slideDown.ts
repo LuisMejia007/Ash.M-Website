@@ -14,16 +14,19 @@ export const SlideDownAnimation = [
         state('open', style({
             visibility: 'visible',
             opacity: '1',
-            maxHeight: '500px'
+            maxHeight: '500px',
+            display: 'block'
         })),
         state('close', style({
             visibility: 'hidden',
             opacity: '0',
-            maxHeight: '0px'
+            maxHeight: '0px',
+            display: 'none'
         })),
         transition('close => open', [group([
             animate('1ms ease-in-out', style({
-                visibility : 'visible'
+                visibility : 'visible',
+                display: 'block'
             })),
             animate('1000ms ease-in-out', style({
                 opacity: '1'
@@ -34,7 +37,8 @@ export const SlideDownAnimation = [
         ])]),
         transition('open => close', [group([
             animate('1000ms ease-in-out', style({
-                visibility: 'hidden'
+                visibility: 'hidden',
+                display: 'none'
             })),
             animate('1005ms ease-in-out', style({
                 opacity: '0'

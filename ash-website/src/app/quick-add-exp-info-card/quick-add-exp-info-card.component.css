@@ -37,10 +37,25 @@
     float: left;
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    text-shadow: 1px 1px 1px black;
 }
-
+.readMore:hover { 
+    cursor: pointer;
+   color: goldenrod;
+    transition: color 0.5s;
+    transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+}
 .experienceCards { 
     width: 100%;
     margin: 0 auto;
     display: block;
+}
+
+.additionalExperiencesContainerHolder{ 
+    height: 500px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    visibility: none;
 }
