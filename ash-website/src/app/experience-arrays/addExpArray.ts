@@ -3,10 +3,10 @@ import { Experience } from './experience';
 export const addExp: Experience[] = [
 
     {
-        place: 'Lexus of Glendale | ',
+        place: 'Lexus of Glendale',
         position: 'Business Development Center Associate/Receptionist',
         location: '',
-        address: 'Glendale, CA | ',
+        address: 'Glendale, CA',
         duration: 'October 2017 - January 2019 ',
         responsibilities:
         ['Answering and transferring high volume phone calls throughout departments in dealership.',
@@ -20,10 +20,10 @@ export const addExp: Experience[] = [
         ]
     },
     {
-        place: 'Sewanee Academic Diversity Cohort | ',
+        place: 'Sewanee Academic Diversity Cohort',
         position: 'Co-Founder/President',
         location: '',
-        address: 'Sewanee, TN | ',
+        address: 'Sewanee, TN',
         duration: 'September 2016 - July 2017 ',
         responsibilities:
         [
@@ -37,7 +37,7 @@ export const addExp: Experience[] = [
         place: 'Sewanee Multicultural Health Society | ',
         position: 'Co-Founder/Secretary',
         location: '',
-        address: 'Sewanee, TN | ',
+        address: 'Sewanee, TN',
         duration: 'March 2015-2017 ',
         responsibilities:
         [

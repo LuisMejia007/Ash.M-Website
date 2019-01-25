@@ -10,4 +10,11 @@
         <h1 class = "readMore"> Read More </h1>
       </div>
   </div>
+  <div class = "additionalExperiencesContainer">
+    <div class = "additionalExperiences">
+      <div class = "experienceCards" *ngFor = "let experience of addExperiences">
+          <app-experience-info-card [experienceObj] = experience ></app-experience-info-card>
+      </div>
+    </div>
+  </div>
 </div>

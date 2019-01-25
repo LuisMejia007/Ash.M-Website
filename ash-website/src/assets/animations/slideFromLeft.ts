@@ -9,7 +9,7 @@ import {
 export const SlideFromLeftAnimation = [
     trigger('slideFromLeft', [
         state('close', style({
-            width: '0px',
+            width: '0%',
             visibility: 'hidden'
 
         })),
@@ -17,7 +17,7 @@ export const SlideFromLeftAnimation = [
             width: '50%',
             visibility: 'visible'
         })),
-        transition('close => open', [group([
+        transition('close=>open', [group([
             animate('1000ms ease-in', style({
                 width: '0%',
                 visibility: 'hidden',
@@ -49,7 +49,7 @@ export const SlideFromLeftAnimation = [
                 opacity: '1.0'
             }))
         ])]),
-        transition('open => close', [group([
+        transition('open=>close', [group([
             animate('1000ms ease-out', style({
                 width: '50%',
                 visibility: 'visible',
@@ -78,7 +78,7 @@ export const SlideFromLeftAnimation = [
             animate('1800ms ease-out', style({
                 width: '0%',
                 visibility: 'hidden',
-                opacity: '0.0'
+                opacity: '0'
             }))
         ])])
     ])

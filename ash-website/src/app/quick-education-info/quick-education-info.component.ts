@@ -13,7 +13,7 @@ import { SlideDownAnimation } from 'src/assets/animations/slideDown';
 export class QuickEducationInfoComponent implements OnInit {
 
   quickEducationArray: Education[] = educationArray;
-  animationState: string = 'close';
+  animationState = 'close';
   constructor() { }
 
   ngOnInit() {
