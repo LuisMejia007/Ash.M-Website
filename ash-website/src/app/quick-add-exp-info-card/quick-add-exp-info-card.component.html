@@ -2,7 +2,7 @@
   <div *ngFor = "let quickAddExp of quickExp">
       <div class = "quickAddExpImgContainer">
         <div class = "addExpImgs" *ngFor = "let photo of quickAddExp.photos">
-          <img class = "addExpImg" src = {{photo}} alt = "My Experience Photos">
+          <img class = "addExpImg" src = {{photo}} alt = "My Experience Photo">
         </div>
       </div>
       <div class = "quickAddExpSummaryContainer">
@@ -11,11 +11,11 @@
       </div>
   </div>
 
-      <div class = "additionalExperiencesContainer">
-          <div [@slideDown] = "animationState" class = "additionalExperiences">
-            <div class = "experienceCards" *ngFor = "let experience of addExperiences">
-                <app-experience-info-card [experienceObj] = experience ></app-experience-info-card>
-            </div>
-          </div>
-        </div>
+  <div class = "additionalExperiencesContainer">
+    <div class = "additionalExperiences">
+      <div class = "experienceCards" *ngFor = "let experience of addExperiences">
+        <app-experience-info-card [experienceObj] = experience ></app-experience-info-card>
+      </div>
+    </div>
+  </div>
 </div>

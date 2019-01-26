@@ -3,6 +3,8 @@ import { quickAddExp } from '../experience-arrays/quickAddExp';
 import { QuickExp } from '../experience-arrays/quickExperience';
 import {addExp } from '../experience-arrays/addExpArray';
 import { SlideDownAnimation } from 'src/assets/animations/slideDown';
+import { BehaviorSubject } from 'rxjs';
+import { AnimationComponentServiceService } from '../animation-component-service.service';
 
 
 @Component({
@@ -17,12 +19,16 @@ export class QuickAddExpInfoCardComponent implements OnInit {
   addExperiences =  addExp;
   animationState = 'close';
 
-  constructor() { }
+
+  constructor(private animationStateComponentService: AnimationComponentServiceService) { }
   ngOnInit() {
   }
 
 
   toggleSlideDown() {
     this.animationState = this.animationState === 'close' ? 'open' : 'close';
+    this.animationStateComponentService.changeAnimationState(this.animationState);
+    console.log('Animation State Sent: ' + this.animationState);
   }
+
 }

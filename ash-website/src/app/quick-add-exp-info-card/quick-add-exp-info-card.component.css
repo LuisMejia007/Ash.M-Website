@@ -1,3 +1,13 @@
+.quickAddExpContainer {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.additionalExperiencesContainer {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
 .addExpImgs{
     width: 100%;
 }
@@ -50,12 +60,4 @@
     width: 100%;
     margin: 0 auto;
     display: block;
-}
-
-.additionalExperiencesContainerHolder{ 
-    height: 500px;
-    display: block;
-    width: 100%;
-    margin: 0 auto;
-    visibility: none;
 }

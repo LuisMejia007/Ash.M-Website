@@ -20,6 +20,8 @@ import { MainAddExpPageComponent } from './main-add-exp-page/main-add-exp-page.c
 import { AppRoutingModule } from './/app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { FooterComponentComponent } from './footer-component/footer-component.component';
+import { AnimationComponentServiceService } from './animation-component-service.service';
 
 
 @NgModule({
@@ -40,14 +42,15 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
     MainTutorExpPageComponent,
     MainAddExpPageComponent,
     HomeComponent,
-    NavBarComponent
+    NavBarComponent,
+    FooterComponentComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [AnimationComponentServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
