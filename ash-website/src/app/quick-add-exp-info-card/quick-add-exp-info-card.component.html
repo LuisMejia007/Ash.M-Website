@@ -1,14 +1,15 @@
 <div class = "quickAddExpContainer">
-  <div *ngFor = "let quickAddExp of quickExp">
       <div class = "quickAddExpImgContainer">
-        <div class = "addExpImgs" *ngFor = "let photo of quickAddExp.photos">
-          <img class = "addExpImg" src = {{photo}} alt = "My Experience Photo">
+        <div class = "addExpImgs">
+          <img class = "addExpImg" src = "../assets/imgs/ashSMHS2.jpg" alt = "My Experience Photo">
         </div>
       </div>
       <div class = "quickAddExpSummaryContainer">
-        <p class = "addExpSummary"> {{quickAddExp.summary}} </p>
+        <p class = "addExpSummary"> 
+            Experiences are only as great as the people who are part of it. 
+            Thankfully, I worked with many great people in my endeavours as a Co-Founder of Sewanee's Multicultural Health Society 
+            and the Sewanee Academic Diversity Cohort. </p>
       </div>
-  </div>
 
   <div class = "additionalExperiencesContainer">
     <div class = "additionalExperiences">
@@ -17,7 +18,9 @@
       </div>
     </div>
   </div>
-  <div class = "quickAddExpSummaryContainer">
+
+  <div class = "readMoreContainer">
     <h1 class = "readMore" (click) = "toggleSlideDown()"> Read More </h1>
   </div>
+
 </div>

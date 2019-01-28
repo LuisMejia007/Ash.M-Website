@@ -16,7 +16,6 @@ import { SlideDown2Animation } from 'src/assets/animations/slideDown2';
 })
 export class QuickAddExpInfoCardComponent implements OnInit {
 
-  quickExp: QuickExp[] = quickAddExp;
   addExperiences =  addExp;
   animationState = 'up';
 
