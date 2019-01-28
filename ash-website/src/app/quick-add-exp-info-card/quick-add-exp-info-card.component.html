@@ -13,7 +13,7 @@
 
   <div class = "additionalExperiencesContainer">
     <div class = "additionalExperiences">
-      <div class = "experienceCards" *ngFor = "let experience of addExperiences">
+      <div [@slideDown] = "animationState" class = "experienceCards" *ngFor = "let experience of addExperiences">
         <app-experience-info-card [experienceObj] = experience ></app-experience-info-card>
       </div>
     </div>
