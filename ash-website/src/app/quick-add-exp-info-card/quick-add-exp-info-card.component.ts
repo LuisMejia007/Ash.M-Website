@@ -5,19 +5,20 @@ import {addExp } from '../experience-arrays/addExpArray';
 import { SlideDownAnimation } from 'src/assets/animations/slideDown';
 import { BehaviorSubject } from 'rxjs';
 import { AnimationComponentServiceService } from '../animation-component-service.service';
+import { SlideDown2Animation } from 'src/assets/animations/slideDown2';
 
 
 @Component({
   selector: 'app-quick-add-exp-info-card',
   templateUrl: './quick-add-exp-info-card.component.html',
   styleUrls: ['./quick-add-exp-info-card.component.css'],
-  animations: [SlideDownAnimation]
+  animations: [SlideDownAnimation, SlideDown2Animation]
 })
 export class QuickAddExpInfoCardComponent implements OnInit {
 
   quickExp: QuickExp[] = quickAddExp;
   addExperiences =  addExp;
-  animationState = 'close';
+  animationState = 'up';
 
 
   constructor(private animationStateComponentService: AnimationComponentServiceService) { }
@@ -26,7 +27,7 @@ export class QuickAddExpInfoCardComponent implements OnInit {
 
 
   toggleSlideDown() {
-    this.animationState = this.animationState === 'close' ? 'open' : 'close';
+    this.animationState = this.animationState === 'up' ? 'down' : 'up';
     this.animationStateComponentService.changeAnimationState(this.animationState);
     console.log('Animation State Sent: ' + this.animationState);
   }

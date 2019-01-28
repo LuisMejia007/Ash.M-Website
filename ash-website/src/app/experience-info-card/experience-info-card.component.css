@@ -1,8 +1,9 @@
 .experienceInfoCardContainer {
-   width: 33.33%;
+   width: 100%;
    display: block;
-   margin: 25px auto 0px auto;
+   margin: 0px auto;
    float: left;
+   height: 600px;
 }
 
 .experienceTimelineInfoContainer { 
@@ -11,11 +12,12 @@
     margin: 0 auto;
     float:left;
     display: block;
+    padding: 5px;
 }
 .positionText { 
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
-    color: black;
+    color: white;
     text-align: center;
     margin-top: 50px;
 }
@@ -25,6 +27,7 @@
     text-align: center;
     display: block;
     font-family: 'Thasadith', sans-serif;
+    color: white;
 
 }
 
@@ -32,12 +35,13 @@
     margin-top: 100px;
 }
 .responsibilityList {
-    list-style: none;
+    list-style: square;
 }
 
 .responsibilityInfo {
     font-family: 'Poppins', sans-serif;
+    font-family: 'Thasadith', sans-serif;
     font-size: 0.9em;
     margin-top: 1%;
-    color: rgba(0,0,0,0.8);
+    color: white;
 }

@@ -7,15 +7,17 @@
       </div>
       <div class = "quickAddExpSummaryContainer">
         <p class = "addExpSummary"> {{quickAddExp.summary}} </p>
-        <h1 class = "readMore" (click) = "toggleSlideDown()"> Read More </h1>
       </div>
   </div>
 
   <div class = "additionalExperiencesContainer">
     <div class = "additionalExperiences">
-      <div [@slideDown] = "animationState" class = "experienceCards" *ngFor = "let experience of addExperiences">
+      <div class = "experienceCards" *ngFor = "let experience of addExperiences">
         <app-experience-info-card [experienceObj] = experience ></app-experience-info-card>
       </div>
     </div>
+  </div>
+  <div class = "quickAddExpSummaryContainer">
+    <h1 class = "readMore" (click) = "toggleSlideDown()"> Read More </h1>
   </div>
 </div>

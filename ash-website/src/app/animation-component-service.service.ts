@@ -8,7 +8,7 @@ export class AnimationComponentServiceService {
 
   constructor() { }
 
-  animationState = new BehaviorSubject<string>('close');
+  animationState = new BehaviorSubject<string>('up');
 
   changeAnimationState(state: any) {
     this.animationState.next(state);
