@@ -42,6 +42,7 @@
     width: 100%;
     display: block;
     margin: 0 auto;
+    height: 100%;
 }
 
 .readMore {
@@ -50,7 +51,6 @@
     display: block;
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    border: 1px solid black;
     text-shadow: 1px 0.5px 0.5px black;
     background-color: black;
 }
