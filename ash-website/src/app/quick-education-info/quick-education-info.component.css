@@ -42,7 +42,7 @@
     margin-top: 125px;
 }
 .readMore { 
-    width: 25%;
+    width: 15%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 125px;
@@ -50,6 +50,7 @@
     text-align: center;
     font-family: 'Poppins', sans-serif;
     color: rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid black;
 }
 
 .readMore:hover { 
@@ -60,11 +61,22 @@
 .quickEducationRoleList {
     list-style: none;
     text-align: center;
+    margin-top: 35px;
+    
 }
 
 .educationRole {
     margin-top: 25px;
     font-family: 'Poppins', sans-serif;
+    font-family: 'Thasadith', sans-serif;
     color: rgb(102, 100, 100);
+    padding: 5px;
     
+}
+
+.dummyContainer {
+    height: 550px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
 }

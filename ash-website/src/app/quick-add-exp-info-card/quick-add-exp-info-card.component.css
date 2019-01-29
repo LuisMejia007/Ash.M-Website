@@ -6,10 +6,16 @@
 }
 .additionalExperiencesContainer {
     width: 100%;
-    margin: 0 auto;
+    margin: 0px auto;
     display: block;
     flex-wrap: nowrap;
 }
+.additionalExperiences {
+    margin: 10px auto;
+    height: 100%;
+    background-color: black;
+}
+
 .addExpImgs{
     width: 100%;
 }
@@ -66,4 +72,5 @@
     display: block;
     margin: 0 auto;
     float: left;
+    height: 100%;
 }

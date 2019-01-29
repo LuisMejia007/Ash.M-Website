@@ -30,6 +30,7 @@ trigger('slideDown2', [
     ])]),
     transition('down=>up', [group([
         animate('1000ms ease-out', style({
+            height: '0px',
             maxHeight: '0px',
             opacity: '0.5',
             display: 'none'

@@ -33,8 +33,8 @@
 }
 
 .readMore {
-    background-color: white;
-    color: black;
+    
+    color: white;
     font-size: 2em;
     font-family: 'Staatliches', cursive, sans-serif;
     font-family: 'Poppins', sans-serif;
@@ -45,8 +45,8 @@
 
 .readMore:hover{
     cursor: pointer;
-    text-shadow: 5px 5px 10px rgba(73, 73, 73, 0.596);
-    transition: text-shadow 0.5s;
+    color: goldenrod;
+    transition: color 0.5s;
     transition-timing-function: ease-in-out;
     -webkit-transition-timing-function: ease-in-out;
 }
