@@ -62,8 +62,8 @@
     -webkit-transition-timing-function: ease-in-out;
 }
 .experienceCards { 
-    width: 33.33%;
+    width: 33%;
     display: block;
-    flex-wrap: nowrap;
+    margin: 0 auto;
     float: left;
 }
