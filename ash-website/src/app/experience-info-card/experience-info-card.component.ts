@@ -18,12 +18,7 @@ export class ExperienceInfoCardComponent implements OnInit {
   constructor(private animationStateComponentService: AnimationComponentServiceService) { }
 
   ngOnInit() {
-    this.animationStateComponentService
-    .getAnimationState()
-    .subscribe(state => {
-      this.animationState = state;
-      console.log('Animation State Received: ' + this.animationState);
-    });
+
   }
 
 }

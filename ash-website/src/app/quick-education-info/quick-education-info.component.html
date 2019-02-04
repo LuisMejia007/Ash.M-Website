@@ -8,15 +8,14 @@
           <p class = "schoolDuration"> {{ education.duration }}</p>
       </div>
     </div>
+   
     <div class = "schoolRolesContainer">
-      <div [@slideDown]="animationState" class = "quickEducationInfoCard" *ngFor = "let education of quickEducationArray">
+      <div class = "quickEducationInfoCard" *ngFor = "let education of quickEducationArray">
         <ul class = "quickEducationRoleList" >
           <li class = "educationRole" *ngFor = "let role of education.roles" > {{role}} </li> 
         </ul>
       </div>
     </div>
-    <div class = "readMoreContainer"> 
-        <h1 class = "readMore" (click) = "toggleSlideDown()"> See More </h1> 
-    </div>
+
   </div>  
 </div>

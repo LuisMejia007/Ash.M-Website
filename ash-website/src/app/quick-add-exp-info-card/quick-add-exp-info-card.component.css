@@ -52,7 +52,7 @@
 }
 
 .readMore {
-    color: white;
+    color: black;
     width: 100%;
     display: block;
     text-align: center;
@@ -60,13 +60,13 @@
     text-shadow: 1px 0.5px 0.5px black;
     background-color: black;
 }
-.readMore:hover { 
+/* .readMore:hover { 
     cursor: pointer;
    color: goldenrod;
     transition: color 0.5s;
     transition-timing-function: ease-in-out;
     -webkit-transition-timing-function: ease-in-out;
-}
+} */
 .experienceCards { 
     width: 33%;
     display: block;

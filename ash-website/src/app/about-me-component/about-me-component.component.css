@@ -2,8 +2,7 @@
    width: 100%;
     height: 100%;
     margin: 0 auto;
-    margin-bottom: 15%;
-    background-image: url("src/assets/imgs/ashOcean.jpg");
+    margin-bottom: 0%;
     background-size: cover;
     padding-bottom: 5%;
 }
@@ -11,6 +10,7 @@
 .aboutMePictureContainer{ 
     width: 50%;
     margin: 0 auto;
+    margin-top: 10%;
     display: block;
 }
 .aboutMePicture { 
@@ -19,52 +19,32 @@
     width: 300px;
     display: block;
     margin: 0 auto;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.86);
 }
-
+.aboutMeSummaryContainer {
+    margin-top: 3%;
+}
 .aboutMeNameContainer{ 
     width: 100%;
     margin: 0 auto;
 }
 .aboutMeName { 
-    color: white;
+    color: black;
     display: block;
     margin: 0 auto;
     font-family: 'Poppins', sans-serif;
     font-size: 3.5em;
     text-align: center;
-    text-shadow: 1.5px 1.5px 3px rgba(0, 0, 0, 0.884);
+    letter-spacing: 5px;
 }
-
-.welcomeContainer { 
+.blackStripContainer { 
     width: 100%;
-    margin: 0 auto;
+    display: block;
+    margin: 20% auto 0% auto;
 }
 
-.welcomeSummary { 
-    width: 50%;
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-    border: 1px solid white;
-    color: white;
-    padding: 5px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5em;
-    text-shadow: 1.5px 1.5px 3px rgba(0, 0, 0, 0.884);
-}
-
-.tutoringServices { 
-    width: 30%;
-    margin: 0 auto;
-    margin-top: 35px;
-    display: block;
-    color: white;
-    padding: 5px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5em;
-    text-shadow: 1.5px 1.5px 3px rgb(0, 0, 0);
-    background-image: radial-gradient(circle, rgb(19, 165, 19), rgba(66, 184, 12, 0.678));
-    background-image: -moz-radial-gradient(circle, rgb(19, 165, 19), rgba(66, 184, 12, 0.678));
-    background-image: -webkit-radial-gradient(circle, rgb(19, 165, 19), rgba(66, 184, 12, 0.678));
-    text-align: center;
+.blackStrip { 
+    height: 300px;
+    background-color: black;
+    width: 100%;
 }
