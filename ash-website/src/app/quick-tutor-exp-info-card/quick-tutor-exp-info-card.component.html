@@ -1,13 +1,16 @@
 <div class = "quickTutorExpContainer">
     <div *ngFor = "let quickTutorExp of quickTutorExps">
       <div class = "quickTutorExpImgsContainer">
-        <div class = "quickTutorExpImgs" *ngFor = "let photo of quickTutorExp.photos">
-            <img class = "tutorPhoto" src = {{photo}} alt = "My Research Photo">
+        <div class = "quickTutorExpImgs">
+            <img class = "tutorPhoto" src = "assets/imgs/ashRussiaTeaching.jpg" alt = "My Research Photo">
         </div> 
         <div class = "quickTutorExpSummaryContainer">
             <p class = "quickTutorSummary"> {{quickTutorExp.summary}} </p>
             <h1 class = "readMore" routerLink = "/tutorExperience"> Learn More </h1>
-          </div>
+        </div>
+        <div class = "quickTutorExpImgs2">
+            <img class = "tutorPhoto" src = "assets/imgs/ashRussiaTeaching.jpg" alt = "My Research Photo">
+        </div> 
       </div>
     </div>
   </div>
