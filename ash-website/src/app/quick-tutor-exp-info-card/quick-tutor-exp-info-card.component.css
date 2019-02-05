@@ -81,3 +81,17 @@
     transition-timing-function: ease-in-out;
     -webkit-transition-timing-function: ease-in-out;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .quickTutorSummary { 
+        font-size: 1em;
+    }
+
+    .readMoreContainer { 
+        margin: 5% auto;
+    }
+    .readMore {
+       font-size: 1.5em;
+    }
+}

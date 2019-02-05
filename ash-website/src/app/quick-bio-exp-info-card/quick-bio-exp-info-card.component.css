@@ -69,3 +69,61 @@
     transition-timing-function: ease-in-out;
     -webkit-transition-timing-function: ease-in-out;
 }
+
+
+@media only screen and (max-width: 600px) {
+
+    .quickBioExpContainer { 
+        height: 100%;
+    }
+    .quickBioExpImgsContainer {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        height: 100%;
+    }
+
+    .quickBioExpSummaryContainer {
+        width: 100%;
+        height: 100%;
+    }
+
+    .quickBioSummary {
+        font-size: 1em;
+    }
+    .readMore { 
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 660px) { 
+    .quickBioExpContainer { 
+        height: 100%;
+    }
+    .quickBioExpImgsContainer {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        height: 100%;
+    }
+
+    .quickBioExpSummaryContainer {
+        width: 100%;
+        height: 100%;
+    }
+    .quickBioSummary {
+        font-size: 1em;
+    }
+    .readMore { 
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 800px) { 
+    .quickBioSummary {
+        font-size: 1em;
+    }
+    .readMore { 
+        font-size: 1.5em;
+    }
+}
