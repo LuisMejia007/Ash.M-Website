@@ -43,6 +43,7 @@
 
 .mainNavBarLinksList {
     display: block;
+    padding: 0px !important;
 }
 
 .mainNavBarItem { 
@@ -94,4 +95,30 @@
 .mainNavBarItem a {
     text-decoration: none;
     color: white;
+}
+
+@media only screen and (max-width: 400px) {
+    .mainNavBarLinksList {
+        padding: 0px;
+    }
+    .mainNavBarHeading {
+        font-size: 2em;
+    }
+
+    .mainNavBarItem {
+        margin: 40px auto;
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (max-height: 560px) {
+  
+    .mainNavBarHeading { 
+        font-size: 1.5em;
+    }
+
+    .mainNavBarItem {
+        margin: 2px auto;
+        font-size: 1em;
+    }
 }

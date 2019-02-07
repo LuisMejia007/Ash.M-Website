@@ -76,6 +76,17 @@
 }
 
 
+@media only screen and (max-width: 800px) { 
+
+    .addExpSummary { 
+        width: 100%;
+        font-size: 1em;
+    }
+    .experienceCards {
+        width: 100%;
+    }
+    
+}
 @media only screen and (max-width: 600px) { 
 
     .addExpSummary { 

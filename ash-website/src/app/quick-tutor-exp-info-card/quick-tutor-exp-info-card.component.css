@@ -95,3 +95,32 @@
        font-size: 1.5em;
     }
 }
+
+@media only screen and (max-width: 400px){
+
+    .quickTutorExpImgs, .quickTutorExpImgs2, .quickTutorExpSummaryContainer   { 
+        display: block;
+        width: 100%;
+        float: left;
+        margin: 0 auto;
+    }
+
+    .quickTutorExpImgs, .quickTutorExpImgs2{ 
+        height: 15%;
+        background-size: cover;
+    }
+    .quickTutorExpSummaryContainer {
+        height: 75%;
+    }
+    .quickTutorSummary { 
+        font-size: 0.9em;
+    }
+
+    .readMoreContainer { 
+        margin: 0% auto;
+    }
+    .readMore {
+       font-size: 1.5em;
+    }
+
+}
