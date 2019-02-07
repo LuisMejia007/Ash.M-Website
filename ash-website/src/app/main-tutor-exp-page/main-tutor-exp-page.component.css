@@ -182,3 +182,37 @@
     font-family: 'Fira Sans', sans-serif;
 }
 
+@media only screen and (max-width: 730px) {
+
+    .mainTutoringWelcomeHeading { 
+        font-size: 3em;
+    }
+    .researchTitle { 
+        margin: 5% auto;
+        font-size: 2em;
+    }
+
+    .imgContainer, .summaryContainer, .mainMexicoTutorImg, .pictureElementsContainer, .mainRussiaTutorImg, .summaryAndLinksContainer { 
+        width: 100%;
+    }
+
+    .mainRussiaTutorImg, .mainMexicoTutorImg, .mainSewaneeTutorImg { 
+        height: 100%;
+    }
+
+    .researchSummary {
+        padding: 0px;
+        word-break: break-word;
+        font-size: 0.9em;
+    }
+
+    .insideInfoList { 
+        font-size: 0.7em;
+        padding: 0px;
+    }
+
+    .relevantLinksContainer, .relevantLinks {
+        margin: 0 auto;
+        padding: 0px;
+    }
+}
