@@ -22,7 +22,7 @@ import { HomeComponent } from './home/home.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponentComponent } from './footer-component/footer-component.component';
 import { AnimationComponentServiceService } from './animation-component-service.service';
-
+import {LocationStrategy, HashLocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -50,7 +50,7 @@ import { AnimationComponentServiceService } from './animation-component-service.
     BrowserAnimationsModule,
     AppRoutingModule
   ],
-  providers: [AnimationComponentServiceService],
+  providers: [AnimationComponentServiceService, {provide: LocationStrategy, useClass: HashLocationStrategy }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
